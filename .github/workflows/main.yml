@@ -4,7 +4,7 @@ on: push
 jobs:
   build:
     name: Hello world action
-    runs-on: k3d-runner
+    runs-on: k3d-runner-deployment
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
